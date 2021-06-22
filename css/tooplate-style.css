@@ -27,6 +27,22 @@ footer a:link, footer a:visited {
   color: #00ccfc;
 }
 
+#buttonTest {
+  color: #ffffff !important;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: 2px solid;
+  border-color: #385b5f;
+  transition: all 1s ease;
+  position: relative;
+}
+
+#buttonTest:hover {
+  background: #385b5f;
+  color: #fff !important;
+}
 .tm-main-container {
   position: relative;
   height: 100%;
